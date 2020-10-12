@@ -1,0 +1,145 @@
+body {
+    font-family: 'Francois One', sans-serif;
+}
+.dd-navbar{
+    align-items: center;
+}
+
+.dd-container {
+    position: relative;
+    width: 100%;
+    max-width: 1380px;
+    padding: 0 40px;
+    margin: 0 auto;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+}
+
+.dd-navlink {
+    background-color: #391f01;
+    margin: 0px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.dd-nav .dd-navlink .dd-container{
+    display: flex;
+}
+
+
+.dd-navlink.is-sub {
+    background-color: #663701;
+}
+.dd-navlink a.is-active, .dd-navlink a:hover , .dd-link{
+    color: #f77b00;
+    text-decoration: none;
+}
+
+.dd-navlink.is-sub a.is-active, .dd-navlink.is-sub a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.dd-navlink a {
+    padding-right: 30px;
+    display: block;
+    font-size: 17px;
+    color: #fff;
+}
+
+.dd-navbarsocial {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+
+.dd-link{
+    display: flex;
+}
+
+.dd-nav .dd-link a {
+    font-size: 18px;
+    display: block;
+    padding: 0 15px;
+    color: #663701;
+    text-decoration: none;
+}
+
+.dd-link a:hover{
+    color: #f77b00;
+    text-decoration: none;
+}
+.dd-navlink.is-sub a{
+    color: #f77b00;
+}
+
+.dd-navlink.is-sub a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.dd-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dd-social {
+    display: flex;
+}
+
+.dd-social {
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.dd-social a {
+    padding: 18px;
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    background:  #663701;
+  }
+
+/*--snack box--*/
+#setsnack{
+    font-size: 17px;
+}
+
+#snack{
+
+    padding: 90px;
+    font-size: 17px;
+}
+/*--snack box--*/
+
+/* .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 100px;
+    /* margin: 100px; */
+  /* }
+  
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } */
+
+
+#donuts{
+    display: flex;
+    align-items: center;
+
+}
+
+.col-2{
+    margin-left: 40px;
+    text-align: center;
+}
+
+.col-2:hover{-webkit-transform:scale(1.15);transform:scale(1.15);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
+
+.title:hover {color:#f77b00;transition:color .15s ease}

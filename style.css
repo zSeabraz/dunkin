@@ -122,16 +122,18 @@
 }
 /*--Donut--*/
 
-
-
 #donuts{
     display: flex;
     text-align: center;
+}
 
+.row{
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 #donut{
-    margin-left: 0px;
+    margin: 0px;
     text-align: center;
     font-size: 18px;
 }

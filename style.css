@@ -130,10 +130,12 @@
 .row{
     box-sizing: border-box;
     display: inline-block;
+    align-items: center;
 }
 
 #donut{
-    margin: 0px;
+    margin: 20px;
+    padding: 0 20px;
     text-align: center;
     font-size: 18px;
 }

@@ -132,14 +132,14 @@ body {
 .title:hover {color:#f77b00;transition:color .15s ease}
 
 /*--Everyday--*/
-.vl {
+.vlp {
     margin-left: 50px;
     border-left: 1.5px solid black;
     height: 350px;
    
   }
 
-  .vl36 {
+  .vlp36 {
     margin-left: 50px;
     border-left: 1.5px solid black;
     height: 400px;
@@ -155,4 +155,22 @@ body {
     padding-bottom: 70px;
 }
 
+
+/*--Sandwiches--*/
+.vls {
+    margin-left: 50px;
+    border-left: 1.5px solid black;
+    height: 250px;
+   
+  }
+
+  .vls2 {
+    margin-left: 50px;
+    border-left: 1.5px solid black;
+    height: 350px;
+   
+  }
+  #sand{
+    padding-top: 150px;
+}
 

@@ -146,14 +146,12 @@ body {
    
   }
   
-#pack{
-    padding-top: 85px;
-}
 
-#pack2{
-    padding-top: 85px;
-    padding-bottom: 70px;
-}
+
+  #pack:hover{
+    background-color: #f7f7f7; 
+    
+  }
 
 
 /*--Sandwiches--*/
@@ -170,7 +168,9 @@ body {
     height: 350px;
    
   }
-  #sand{
-    padding-top: 150px;
-}
+
+  #sand:hover{
+    background-color: #f7f7f7; 
+    
+  }
 

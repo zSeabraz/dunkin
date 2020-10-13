@@ -1,6 +1,14 @@
-body {
-    font-family: 'Francois One', sans-serif;
+@font-face {
+    font-family: 'db_ozone_xregular';
+    src: url('db_ozone_x_v3.2-webfont.woff2') format('woff2'),
+         url('db_ozone_x_v3.2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+    p{
+        font-family: 'db_ozone_xregular';
+    }
 .dd-navbar{
     align-items: center;
 }

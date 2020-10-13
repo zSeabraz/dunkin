@@ -199,16 +199,33 @@
     height: 350px;
     width: 320px;
     background-color:#773722;
-  }
+  } 
   .square3 {
     height: 350px;
     width: 320px;
     background-color:#773722;
   }
-  .square4 {
+   .square4 {
     height: 350px;
     width: 320px;
     background-color:#773722;
+  }
+
+  .square33 {
+    height: 350px;
+    width: 350px;
+    background-color: #F2F2F2;
+  }
+  .square44 {
+    height: 350px;
+    width: 350px;
+    background-color: #F2F2F2;
+  }
+
+  .square55 {
+    height: 700px;
+    width: 700px;
+    background-color: #F2F2F2;
   }
 
 
@@ -219,7 +236,7 @@
     position: relative;
     width: 0;
     height: 0;
-     margin-top:-80px;
+    margin-top:-80px;
     margin-left: 0px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
@@ -406,9 +423,183 @@
     color: black;
   }
 
+  .squarep3 {
+    height: 350px;
+    width: 320px;
+    background-color:#E04B94;
+  }
+  .squarep4 {
+    height: 350px;
+    width: 320px;
+    background-color:#E04B94;
+  }
+  .squarep5 {
+    height: 350px;
+    width: 320px;
+    background-color:#E04B94;
+  }
+  .squarep6 {
+    height: 350px;
+    width: 320px;
+    background-color:#E04B94;
+  }
+  
+
+
+
+  .squarep:after {
+    content: "";
+    left: 100%;
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+     margin-top:-60px;
+    margin-left: 0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #E04B94;
+  }
+  .squarep2:after {
+    content: "";
+    left: 100%;
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+     margin-top:0px;
+    margin-left: 0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #E04B94;
+  }
+
+  .squarep3:before {
+    content: "";
+    right: 100%;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top:50px;
+    margin-left: 305px;
+    position: relative;
+    top: 30%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid#E04B94;
+}
+.squarep4:before {
+    content: "";
+    right: 100%;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top:50px;
+    margin-left: 305px;
+    position: relative;
+    top: 30%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid#E04B94;
+}
+.squarep5:after {
+    content: "";
+    left: 100%;
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+     margin-top:-80px;
+    margin-left: 0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #E04B94;
+  }
+  .squarep6:after {
+    content: "";
+    left: 100%;
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+     margin-top:-30px;
+    margin-left: 0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #E04B94;
+  }
+
+  #coffee:hover{-webkit-transform:scale(1.01);transform:scale(1.01);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
+
+  .line1 {
+    margin-left: 50px;
+    border-left: 1.5px solid black;
+    height: 105px;
+    padding-left: 15px;
+  }
+
+  .line2 {
+    /* margin-left: 50px; */
+    border-left: 1.5px solid black;
+    height: 140px;
+    padding-left: 15px;
+    margin-top: 35px;
+  }
+
+  .line3 {
+    border-bottom: 1.5px solid black;
+    height: 20px;
+  }
+
+  #link {
+    text-decoration: none;
+    color: black;
+  }
 
 
 
 
 
 
+
+.square33:after {
+    content: "";
+    bottom: 50%;
+    left: 100%;
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    margin-top:0px;
+    margin-left: 0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid  #F2F2F2;
+  }
+  .square44:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    right: 91%;
+    top: 50%;
+    margin-left: 305px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #F2F2F2;
+}
+
+.square55:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    right: 90.8%;
+    top: 50%;
+    margin-left: 621px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #F2F2F2;
+}

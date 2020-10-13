@@ -126,13 +126,13 @@
 
 #donuts{
     display: flex;
-    align-items: center;
+    text-align: center;
 
 }
 
 #donut{
-    margin-left: 40px;
     text-align: center;
+    font-size: 18px;
 }
 
 #donut:hover{-webkit-transform:scale(1.15);transform:scale(1.15);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}

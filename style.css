@@ -112,21 +112,8 @@ body {
     padding: 90px;
     font-size: 17px;
 }
-/*--snack box--*/
+/*--Donut--*/
 
-/* .grid-container {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto auto auto auto auto;
-    padding: 100px;
-    /* margin: 100px; */
-  /* }
-  
-  .grid-item {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  } */
 
 
 #donuts{
@@ -135,11 +122,37 @@ body {
 
 }
 
-.col-2{
+#donut{
     margin-left: 40px;
     text-align: center;
 }
 
-.col-2:hover{-webkit-transform:scale(1.15);transform:scale(1.15);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
+#donut:hover{-webkit-transform:scale(1.15);transform:scale(1.15);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
 
 .title:hover {color:#f77b00;transition:color .15s ease}
+
+/*--Everyday--*/
+.vl {
+    margin-left: 50px;
+    border-left: 1.5px solid black;
+    height: 350px;
+   
+  }
+
+  .vl36 {
+    margin-left: 50px;
+    border-left: 1.5px solid black;
+    height: 400px;
+   
+  }
+  
+#pack{
+    padding-top: 85px;
+}
+
+#pack2{
+    padding-top: 85px;
+    padding-bottom: 70px;
+}
+
+

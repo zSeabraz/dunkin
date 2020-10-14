@@ -662,12 +662,15 @@
   border-right: 15px solid #773722;
 }
 
-#beverage {
-  padding: 0px;
-  margin: 0px;
-}
+
+.dd-img:hover {-webkit-transform:scale(1.14);
+  transform:scale(1.14);
+  transition:-webkit-transform .5s ease;
+  transition:transform .5s ease;
+  transition:transform .5s ease, -webkit-transform .5s ease}
 
 .dd-img {
   width: 325px;
-  height: 333.51px;
+  text-align: center;
 }
+
